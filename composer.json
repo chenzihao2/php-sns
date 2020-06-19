@@ -1,0 +1,23 @@
+{
+    "name": "7kgame/php-sns",
+    "description": "微信/qq等开放平台 相关SDK封装",
+    "keywords": ["7kgame", "php", "微信", "QQ", "微博"],
+    "homepage": "http://github.com/7kgame/php-sns",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenyijun",
+            "email": "cyij2006@gmail.com"
+        }
+    ],
+    "require": {
+      "7k7k/php-common": "1.*",
+      "php": ">=5.3.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"QKPHP\\SNS\\": "src"}
+    },
+    "classmap": ["src/"]
+}
